@@ -23,7 +23,8 @@
     "prefer-stable": true,
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.14",
-        "phpunit/phpunit": "^8.0"
+        "phpunit/phpunit": "^8.0",
+        "phpstan/phpstan": "^1.2"
     },
     "autoload": {
         "psr-4": {
@@ -32,6 +33,7 @@
     },
     "scripts": {
         "test": "vendor/bin/phpunit --colors=always",
-        "stylefix": "vendor/bin/php-cs-fixer fix"
+        "style": "vendor/bin/php-cs-fixer fix",
+        "analyse": "vendor/bin/psalm"
     }
 }
