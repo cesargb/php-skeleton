@@ -2,7 +2,7 @@
 
 namespace Cesargb\Skeleton;
 
-class SkeletonClass
+class Skeleton
 {
     //
 }

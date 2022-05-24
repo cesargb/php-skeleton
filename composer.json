@@ -1,11 +1,11 @@
 {
-    "name": "cesargb/:package_name",
-    "description": ":package_description",
+    "name": "cesargb/skeleton",
+    "description": "package_description",
     "type": "library",
     "require": {
-        "php": "^7.3"
+        "php": "^8.0"
     },
-    "homepage": "https://github.com/cesargb/:package_name",
+    "homepage": "https://github.com/cesargb/skeleton",
     "license": "MIT",
     "authors": [
         {

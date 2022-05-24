@@ -1,17 +1,17 @@
-# skeleton-php
+# php-skeleton
 
 ## Install
 
 Via Composer
 
-``` bash
-$ composer require cesargb/:package_name
+```bash
+composer require cesargb/package_name
 ```
 
 ## Usage
 
-``` php
-$skeleton = new Cesargb\Skeleton\SkeletonCall;
+```php
+$skeleton = new Cesargb\Skeleton\SkeletonClass;
 ```
 
 ## Testing
