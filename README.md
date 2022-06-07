@@ -17,5 +17,5 @@ $skeleton = new Cesargb\Skeleton\SkeletonClass;
 ## Testing
 
 ``` bash
-$ composer test
+composer test
 ```
