@@ -36,11 +36,6 @@ jobs:
         composer install
         composer dump
 
-    - name: Install dependencies Force
-      run: |
-        composer install
-        composer dump
-
     - name: Fix styles
       run: vendor/bin/php-cs-fixer fix
 
